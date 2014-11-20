@@ -25,6 +25,8 @@ if "job_id" in obj:
   values["job_id"] = obj["job_id"]
 if "image_id" in obj:
   values["image_id"] = obj["image_id"]
+if "duration" in obj:
+  values["duration"] = obj["duration"]
 if "created_at" in obj:
   values["created_at"] = obj["created_at"]
 
